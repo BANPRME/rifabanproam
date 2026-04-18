@@ -590,7 +590,7 @@ document.querySelector("form").addEventListener("submit", function(e){
         return;
     }
 
-    fetch("INDEX3.php", {
+    fetch("enviar.php", {
         method: "POST",
         headers: {
             "Content-Type": "application/x-www-form-urlencoded"
